@@ -8,7 +8,7 @@ public class Calculation {
         int y = 10;
         int z = 5 + 10;
         System.out.println("変数Zの値は" + z + "です。");
-
+        
         double a = 5.25;
         a = a + 2.5;
         a = a * 3.0;
