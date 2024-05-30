@@ -21,22 +21,22 @@ public class MethodPractice {
 	public static int sumNumbers(int a, int b) {
 	        int sum =a + b;
 	        return sum;
-	    }
+		}
 
 	public static int minuNumbers(int a, int b) {
 	        int minu =a - b;
 	        return minu;
-	    }
+		}
 
 	public static int multNumbers(int a,int b){
 	        int mult = a * b;
 	        return mult;
-	    }
+		}
 
 	public static int diviNumbers(int a,int b){
 	        int divi = a / b;
 	        return divi;
-	    }
+		}
 
 	public static void console(int math[]) {
 	        for(int maths:math){
