@@ -22,6 +22,7 @@ public class ForWhile {
                 }
             }
 
+		
             String[] pg= {"Ruby", "Golang", "Java", "Python", "TypeScript", "HTML", "Javascript"};
             for(String prg:pg){
                 if (prg == "Java") {
