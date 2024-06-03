@@ -42,5 +42,5 @@ public class MethodPractice {
 	        for(int maths:math){
 	        System.out.println("計算結果は" + maths + "です。");
 	        }
-		}
+	}
 }
