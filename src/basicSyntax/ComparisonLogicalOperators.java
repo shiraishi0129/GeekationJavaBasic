@@ -21,10 +21,8 @@ public class ComparisonLogicalOperators {
 		boolean isMath = (x > 0 && z == 0);
 		System.out.println(isMath);
 
-		int d = 5;
-		int f = 10;
-		boolean hasPermission = !(d > f);
-		System.out.println(hasPermission);
+		boolean hasPermission = false;
+		System.out.println(!(hasPermission));
 
 	}
 
