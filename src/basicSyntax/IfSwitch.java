@@ -11,7 +11,7 @@ public class IfSwitch {
 		else if (num % 3 == 0) {
 			System.out.println("3の倍数です。");
 		}
-		else{
+		else {
 			System.out.println("どちらでもありません");
 		}
 
