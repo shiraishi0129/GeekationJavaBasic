@@ -20,11 +20,11 @@ public class GeekIntroduction {
 			else if (num1 < num2) {
 				System.out.println("num1はnum2より大きい値にしてください。");
 				break;
-				}
+			}
 			else if (300 < num1 || 300 < num2) {
 				System.out.println("num1とnum2は300より小さい値にしてください。");
 				break;
-				}
+			}
 			
 			else{
 				
@@ -35,24 +35,24 @@ public class GeekIntroduction {
 				
 				if (mod3num1 == 0 && mod5num1 == 0) {
 					System.out.println(num1 + "は3の倍数かつ5の倍数です。");
-					}
+				}
 				else if (mod3num1 == 0 && mod5num1 != 0) {
 					System.out.println(num1 + "は3の倍数です。");
-					}
+				}
 				else if (mod3num1 != 0 && mod5num1 == 0) {
 					System.out.println(num1 + "は5の倍数です。");
-					}
+				}
 				
 				if (mod3num2 == 0 && mod5num2 == 0) {
 					System.out.println(num2 + "は3の倍数かつ5の倍数です。");
-					}
+				}
 				else if (mod3num2 == 0 && mod5num2 != 0) {
 					System.out.println(num2 + "は3の倍数です。");
-					}
+				}
 				else if (mod3num2 != 0 && mod5num2 == 0) {
 					System.out.println(num2 + "は5の倍数です。");
-					}
 				}
+			}
 			num1++;
 			num2++;
 		}
