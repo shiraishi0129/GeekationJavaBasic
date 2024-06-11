@@ -53,8 +53,8 @@ public class GeekIntroduction {
 					System.out.println(num2 + "は5の倍数です。");
 				}
 			}
-			num1++;
-			num2++;
+		num1++;
+		num2++;
 		}
 	}
 }
