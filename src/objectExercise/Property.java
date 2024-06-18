@@ -6,6 +6,13 @@ public class Property {
 	private String kindName;
 	private int Price;
 	
+	Property(String buildName,String ownerName,String kindName,int Price){
+
+		this.buildName = buildName;
+		this.ownerName = ownerName;
+		this.kindName = kindName;
+		this.Price = Price;
+	}
 	
 	public String getBuildName() {
 		return buildName;
@@ -32,14 +39,6 @@ public class Property {
 		return Price;
 	}
 	public  void setPrice(int Price) {
-		this.Price = Price;
-	}
-	
-	Property(String buildName,String ownerName,String kindName,int Price){
-
-		this.buildName = buildName;
-		this.ownerName = ownerName;
-		this.kindName = kindName;
 		this.Price = Price;
 	}
 	

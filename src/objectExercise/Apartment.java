@@ -3,7 +3,12 @@ package objectExercise;
 public class Apartment extends Property{
 
 	private String layout;
-	
+		
+	Apartment(String buildName,String ownerName, String kindName,int Price, String layout){
+		super(buildName, ownerName, kindName, Price);
+		this.layout = layout;
+	}
+
 	public String getLayout() {
 		return layout;
 	}
@@ -11,12 +16,6 @@ public class Apartment extends Property{
 	public  void setLayout(String layout) {
 		this.layout = layout;
 	}
-		
-	Apartment(String buildName,String ownerName, String kindName,int Price, String layout){
-		super(buildName, ownerName, kindName, Price);
-		this.layout = layout;
-	}
-
 	
 	public void layoutList() {
 		super.list();
